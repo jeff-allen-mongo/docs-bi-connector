@@ -29,4 +29,15 @@ Procedure
 Before beginning this tutorial, make sure you have a running
 :binary:`~bin.mongosqld` instance.
 
-.. include:: /includes/steps/connect-excel-auth-plugin.rst
+.. tabs::
+
+   tabs:
+     - id: windows
+       name: Windows
+       content: |
+         .. include:: /includes/steps/connect-excel-auth-plugin-windows.rst
+
+     - id: macOS
+       name: macOS
+       content: |
+         .. include:: /includes/steps/connect-excel-auth-plugin-mac.rst
